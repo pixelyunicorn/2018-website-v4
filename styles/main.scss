@@ -9,12 +9,12 @@ $base-font-family: "FF Tisa Sans Pro", "FF Tisa Sans", "ff-tisa-sans-web-pro", "
 $base-font-size: 18px;
 $base-line-height: 1.65;
 
-$title-font-family: "FatFrank", "Bjola", Helvetica, Arial, sans-serif;
-$heading-font-family: "FatFrank", "Source Serif Pro", "house-slant", "House Slant", "house-slant", "Gastromond", Helvetica, Arial, sans-serif;
+$title-font-family: "Reklame Script", "reklame-script", "House Slant", "house-slant", Helvetica, Arial, sans-serif;
+$heading-font-family: $base-font-family;
 $accent-font-family: $base-font-family;
 
-$title-font-weight: normal;
-$heading-font-weight: normal;
+$title-font-weight: bold;
+$heading-font-weight: bold;
 
 $small-font-size: $base-font-size * 0.875;
 
@@ -29,23 +29,23 @@ $on-tablet: 900px;
 $on-netbook: 1240px;
 
 // Required colors
-$red: #F44336;
+$red: #FA4141;
 $white: #ffffff;
 $gray: #828282;
 $black: #343a40;
 
-// Brand colors
-$yellow: #F8D667;
+// tan colors
+$tan: #FCE8CE;
 $blue: #1B4B83;
-$purple: rebeccapurple;
+$purple: #574965;
 
-$primary: $yellow;
-$secondary: $blue;
-$tertiary: $purple;
+$primary: $red;
+$secondary: $purple;
+$tertiary: $blue;
 
 $brand-color: $primary;
 $text-color: $black;
-$background-color: $white;
+$background-color: $tan;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "cutie/mixins";
